@@ -93,7 +93,7 @@ const Pricing = () => {
               <CTAButton
                 text="Começar Agora"
                 className={`w-full justify-center ${
-                  index !== 1 ? "!bg-gray-100 !text-primary hover:!bg-gray-200" : ""
+                  index !== 1 ? "!bg-gray-200 !text-primary hover:!bg-gray-300" : ""
                 }`}
               />
             </div>
