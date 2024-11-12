@@ -17,18 +17,18 @@ const features = [
 
 const plans = [
   {
-    name: "Mensal",
-    price: "R$ 124,95",
-    period: "/mês",
-    description: "Pagamento mensal",
-    discount: null
-  },
-  {
     name: "Semestral",
     price: "R$ 637,95",
     period: "/6 meses",
     description: "Economia de 15%",
     discount: "15% OFF"
+  },
+  {
+    name: "Mensal",
+    price: "R$ 124,95",
+    period: "/mês",
+    description: "Pagamento mensal",
+    discount: null
   },
   {
     name: "Anual",
@@ -56,8 +56,8 @@ const Pricing = () => {
             <div
               key={index}
               className={`rounded-xl p-8 ${
-                index === 2
-                  ? "border-2 border-whatsapp shadow-xl"
+                index === 1
+                  ? "border-2 border-primary shadow-xl scale-105 bg-primary/5"
                   : "border border-gray-200"
               }`}
             >
@@ -68,7 +68,7 @@ const Pricing = () => {
                   <span className="text-gray-600">{plan.period}</span>
                 </div>
                 {plan.discount && (
-                  <span className="inline-block bg-whatsapp/10 text-whatsapp px-3 py-1 rounded-full text-sm font-semibold">
+                  <span className="inline-block bg-primary/10 text-primary px-3 py-1 rounded-full text-sm font-semibold">
                     {plan.discount}
                   </span>
                 )}
@@ -77,13 +77,13 @@ const Pricing = () => {
               <ul className="space-y-4 mb-8">
                 {features.map((feature, idx) => (
                   <li key={idx} className="flex items-center gap-2">
-                    <Check className="w-5 h-5 text-whatsapp" />
+                    <Check className="w-5 h-5 text-primary" />
                     <span>{feature}</span>
                   </li>
                 ))}
-                <li className="flex items-center gap-2 bg-whatsapp/10 p-2 rounded-lg">
-                  <Check className="w-5 h-5 text-whatsapp" />
-                  <span className="font-semibold text-whatsapp">SUPORTE 24 HORAS</span>
+                <li className="flex items-center gap-2 bg-primary/10 p-2 rounded-lg">
+                  <Check className="w-5 h-5 text-primary" />
+                  <span className="font-semibold text-primary">SUPORTE 24 HORAS</span>
                 </li>
                 <li className="flex items-center gap-2 bg-gray-100 p-2 rounded-lg">
                   <Check className="w-5 h-5 text-gray-400" />
