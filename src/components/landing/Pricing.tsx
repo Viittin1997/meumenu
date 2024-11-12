@@ -81,9 +81,9 @@ const Pricing = () => {
                     <span>{feature}</span>
                   </li>
                 ))}
-                <li className={`flex items-center gap-2 ${index === 1 ? "bg-white/20" : "bg-primary/10"} p-2 rounded-lg`}>
-                  <Check className={`w-5 h-5 ${index === 1 ? "text-white" : "text-primary"}`} />
-                  <span className={index === 1 ? "font-semibold text-white" : "font-semibold text-primary"}>SUPORTE 24 HORAS</span>
+                <li className={`flex items-center gap-2 ${index === 1 ? "bg-emerald-500 text-white" : "bg-emerald-100"} p-2 rounded-lg`}>
+                  <Check className={`w-5 h-5 ${index === 1 ? "text-white" : "text-emerald-600"}`} />
+                  <span className={index === 1 ? "font-semibold text-white" : "font-semibold text-emerald-600"}>SUPORTE 24 HORAS</span>
                 </li>
                 <li className={`flex items-center gap-2 ${index === 1 ? "bg-white/10" : "bg-gray-100"} p-2 rounded-lg`}>
                   <Check className={`w-5 h-5 ${index === 1 ? "text-white/70" : "text-gray-400"}`} />
