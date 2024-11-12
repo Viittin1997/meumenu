@@ -9,7 +9,7 @@ const Hero = () => {
           <div className="space-y-8">
             <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
               Automatize seu delivery com um
-              <span className="text-whatsapp"> robô no WhatsApp</span>
+              <span className="text-whatsapp"> ROBÔ no WhatsApp</span>
             </h1>
             <p className="text-xl text-gray-600">
               Aumente suas vendas e simplifique o atendimento com um assistente virtual 24/7 que processa pedidos, calcula taxas e fideliza clientes.
