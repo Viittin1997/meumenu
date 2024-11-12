@@ -23,7 +23,7 @@ const benefits = [
   },
   {
     type: "Açaíterias",
-    image: "https://images.unsplash.com/photo-1615485290382-441e4d049cb5",
+    image: "https://images.unsplash.com/photo-1553530666-ba11a7da3888",
     benefits: [
       "Montagem personalizada de pedidos",
       "Atendimento via WhatsApp com Robô",
