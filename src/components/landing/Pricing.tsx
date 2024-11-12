@@ -57,7 +57,7 @@ const Pricing = () => {
               key={index}
               className={`rounded-xl p-8 ${
                 index === 1
-                  ? "border-2 border-primary shadow-xl scale-105 bg-primary/5"
+                  ? "border-2 border-primary shadow-xl scale-105 bg-primary text-white"
                   : "border border-gray-200"
               }`}
             >
@@ -65,35 +65,37 @@ const Pricing = () => {
                 <h3 className="text-2xl font-bold mb-2">{plan.name}</h3>
                 <div className="flex items-center justify-center gap-2 mb-2">
                   <span className="text-3xl font-bold">{plan.price}</span>
-                  <span className="text-gray-600">{plan.period}</span>
+                  <span className={index === 1 ? "text-white/80" : "text-gray-600"}>{plan.period}</span>
                 </div>
                 {plan.discount && (
-                  <span className="inline-block bg-primary/10 text-primary px-3 py-1 rounded-full text-sm font-semibold">
+                  <span className={`inline-block ${index === 1 ? "bg-white text-primary" : "bg-primary/10 text-primary"} px-3 py-1 rounded-full text-sm font-semibold`}>
                     {plan.discount}
                   </span>
                 )}
-                <p className="text-gray-600 mt-2">{plan.description}</p>
+                <p className={index === 1 ? "text-white/80 mt-2" : "text-gray-600 mt-2"}>{plan.description}</p>
               </div>
               <ul className="space-y-4 mb-8">
                 {features.map((feature, idx) => (
                   <li key={idx} className="flex items-center gap-2">
-                    <Check className="w-5 h-5 text-primary" />
+                    <Check className={`w-5 h-5 ${index === 1 ? "text-white" : "text-primary"}`} />
                     <span>{feature}</span>
                   </li>
                 ))}
-                <li className="flex items-center gap-2 bg-primary/10 p-2 rounded-lg">
-                  <Check className="w-5 h-5 text-primary" />
-                  <span className="font-semibold text-primary">SUPORTE 24 HORAS</span>
+                <li className={`flex items-center gap-2 ${index === 1 ? "bg-white/20" : "bg-primary/10"} p-2 rounded-lg`}>
+                  <Check className={`w-5 h-5 ${index === 1 ? "text-white" : "text-primary"}`} />
+                  <span className={index === 1 ? "font-semibold text-white" : "font-semibold text-primary"}>SUPORTE 24 HORAS</span>
                 </li>
-                <li className="flex items-center gap-2 bg-gray-100 p-2 rounded-lg">
-                  <Check className="w-5 h-5 text-gray-400" />
-                  <span className="font-medium text-gray-500">Pagamento online (Em breve)</span>
+                <li className={`flex items-center gap-2 ${index === 1 ? "bg-white/10" : "bg-gray-100"} p-2 rounded-lg`}>
+                  <Check className={`w-5 h-5 ${index === 1 ? "text-white/70" : "text-gray-400"}`} />
+                  <span className={index === 1 ? "font-medium text-white/70" : "font-medium text-gray-500"}>Pagamento online (Em breve)</span>
                 </li>
               </ul>
               <CTAButton
                 text="Começar Agora"
                 className={`w-full justify-center ${
-                  index !== 1 ? "!bg-gray-200 !text-primary hover:!bg-gray-300" : ""
+                  index === 1 
+                    ? "!bg-white !text-primary hover:!bg-white/90" 
+                    : "!bg-gray-200 !text-primary hover:!bg-gray-300"
                 }`}
               />
             </div>
