@@ -25,11 +25,11 @@ export default {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         whatsapp: {
-          DEFAULT: "#C14444",
+          DEFAULT: "#25D366",
           foreground: "#ffffff",
         },
         primary: {
-          DEFAULT: "#C14444",
+          DEFAULT: "#25D366",
           foreground: "#ffffff",
         },
         secondary: {

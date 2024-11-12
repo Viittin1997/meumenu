@@ -1,4 +1,4 @@
-import { MessageCircle } from "lucide-react";
+import { MessageSquare } from "lucide-react";
 
 interface CTAButtonProps {
   text: string;
@@ -15,7 +15,7 @@ const CTAButton = ({ text, className = "" }: CTAButtonProps) => {
       onClick={handleClick}
       className={`inline-flex items-center gap-2 bg-whatsapp hover:bg-whatsapp/90 text-white px-6 py-3 rounded-full font-medium transition-all transform hover:scale-105 ${className}`}
     >
-      <MessageCircle className="w-5 h-5" />
+      <MessageSquare className="w-5 h-5" />
       {text}
     </button>
   );
