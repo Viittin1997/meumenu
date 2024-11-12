@@ -25,24 +25,24 @@ export default {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         whatsapp: {
-          DEFAULT: "#00A884",
+          DEFAULT: "#C14444",
           foreground: "#ffffff",
         },
         primary: {
-          DEFAULT: "#00A884",
+          DEFAULT: "#C14444",
           foreground: "#ffffff",
         },
         secondary: {
-          DEFAULT: "#FF6B6B",
-          foreground: "#ffffff",
+          DEFAULT: "#F4F4F4",
+          foreground: "#121212",
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
           foreground: "hsl(var(--destructive-foreground))",
         },
         muted: {
-          DEFAULT: "hsl(var(--muted))",
-          foreground: "hsl(var(--muted-foreground))",
+          DEFAULT: "#F4F4F4",
+          foreground: "#121212",
         },
         accent: {
           DEFAULT: "hsl(var(--accent))",
