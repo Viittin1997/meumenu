@@ -85,6 +85,10 @@ const Pricing = () => {
                   <Check className="w-5 h-5 text-whatsapp" />
                   <span className="font-semibold text-whatsapp">SUPORTE 24 HORAS</span>
                 </li>
+                <li className="flex items-center gap-2 bg-gray-100 p-2 rounded-lg">
+                  <Check className="w-5 h-5 text-gray-400" />
+                  <span className="font-medium text-gray-500">Pagamento online (Em breve)</span>
+                </li>
               </ul>
               <CTAButton
                 text="Começar Agora"
