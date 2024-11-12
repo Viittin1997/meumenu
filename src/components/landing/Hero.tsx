@@ -9,14 +9,14 @@ const Hero = () => {
           <div className="space-y-8">
             <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
               Automatize seu delivery com um
-              <span className="text-whatsapp"> Robô no WhatsApp</span>
+              <span className="text-primary"> Robô no WhatsApp</span>
             </h1>
             <p className="text-xl text-gray-600">
               Aumente suas vendas e simplifique o atendimento com um assistente virtual 24/7 que processa pedidos, calcula taxas e fideliza clientes.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <CTAButton text="Começar Agora" />
-              <button className="inline-flex items-center gap-2 text-gray-600 hover:text-whatsapp transition-colors">
+              <button className="inline-flex items-center gap-2 text-gray-600 hover:text-primary transition-colors">
                 Ver demonstração
                 <ArrowRight className="w-5 h-5" />
               </button>
