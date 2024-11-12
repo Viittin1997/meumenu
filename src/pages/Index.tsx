@@ -13,7 +13,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
-              <img src="/logo.png" alt="MeuMenu" className="h-10 w-10" />
+              <img src="./logo.png" alt="MeuMenu" className="h-10 w-10" />
               <span className="ml-2 text-xl font-bold text-primary">MeuMenu</span>
             </div>
             <nav className="hidden md:flex items-center gap-8">
@@ -40,7 +40,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <img src="/logo.png" alt="MeuMenu" className="h-8 w-8" />
+                <img src="./logo.png" alt="MeuMenu" className="h-8 w-8" />
                 <h3 className="text-xl font-bold text-primary">MeuMenu</h3>
               </div>
               <p className="text-gray-600">
