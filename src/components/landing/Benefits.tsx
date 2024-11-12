@@ -2,17 +2,35 @@ const benefits = [
   {
     type: "Pizzarias",
     image: "https://images.unsplash.com/photo-1513104890138-7c749659a591",
-    benefits: ["Cardápio com sabores e bordas", "Meio a meio automático", "Promoções por tamanho"]
+    benefits: [
+      "Cardápio digital com sabores e bordas",
+      "Atendimento automático via WhatsApp",
+      "Sistema de mesas e delivery",
+      "Relatórios financeiros detalhados",
+      "Programa de fidelidade"
+    ]
   },
   {
     type: "Hamburguerias",
     image: "https://images.unsplash.com/photo-1586816001966-79b736744398",
-    benefits: ["Personalização completa", "Combos automáticos", "Adicionais inteligentes"]
+    benefits: [
+      "Cardápio com personalizações",
+      "Robô para atendimento 24h",
+      "Cupons de desconto",
+      "Sistema de PDV completo",
+      "Sorteios automáticos"
+    ]
   },
   {
     type: "Açaíterias",
     image: "https://images.unsplash.com/photo-1615485290382-441e4d049cb5",
-    benefits: ["Montagem passo a passo", "Cálculo por peso", "Toppings ilimitados"]
+    benefits: [
+      "Montagem personalizada de pedidos",
+      "Atendimento via WhatsApp com Robô",
+      "Impressão automática de pedidos",
+      "Controle de caixa simplificado",
+      "Sistema de pontos para clientes"
+    ]
   }
 ];
 
