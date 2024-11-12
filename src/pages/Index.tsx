@@ -7,6 +7,13 @@ import FAQ from "@/components/landing/FAQ";
 import CTAButton from "@/components/landing/CTAButton";
 
 const Index = () => {
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="min-h-screen">
       <header className="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-md z-50 border-b">
@@ -17,9 +24,24 @@ const Index = () => {
               <span className="ml-2 text-xl font-bold text-primary">MeuMenu</span>
             </div>
             <nav className="hidden md:flex items-center gap-8">
-              <a href="#features" className="hover:text-primary transition-colors">Recursos</a>
-              <a href="#benefits" className="hover:text-primary transition-colors">Benefícios</a>
-              <a href="#pricing" className="hover:text-primary transition-colors">Preços</a>
+              <button 
+                onClick={() => scrollToSection('features')} 
+                className="hover:text-primary transition-colors"
+              >
+                Recursos
+              </button>
+              <button 
+                onClick={() => scrollToSection('benefits')} 
+                className="hover:text-primary transition-colors"
+              >
+                Benefícios
+              </button>
+              <button 
+                onClick={() => scrollToSection('pricing')} 
+                className="hover:text-primary transition-colors"
+              >
+                Preços
+              </button>
               <CTAButton text="Começar Agora" />
             </nav>
           </div>
@@ -28,9 +50,15 @@ const Index = () => {
 
       <main>
         <Hero />
-        <Features />
-        <Benefits />
-        <Pricing />
+        <section id="features">
+          <Features />
+        </section>
+        <section id="benefits">
+          <Benefits />
+        </section>
+        <section id="pricing">
+          <Pricing />
+        </section>
         <Testimonials />
         <FAQ />
       </main>
