@@ -7,7 +7,8 @@ interface CTAButtonProps {
 
 const CTAButton = ({ text, className = "" }: CTAButtonProps) => {
   const handleClick = () => {
-    window.open("https://wa.me/5531993611361", "_blank");
+    const message = encodeURIComponent("Oi, tenho interesse em iniciar ou saber mais sobre o sistema!");
+    window.open(`https://wa.me/5531993611361?text=${message}`, "_blank");
   };
 
   return (
