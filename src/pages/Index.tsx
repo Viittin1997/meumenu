@@ -12,11 +12,14 @@ const Index = () => {
       <header className="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-md z-50 border-b">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-16">
-            <div className="text-xl font-bold text-whatsapp">MeuMenu</div>
+            <div className="flex items-center">
+              <img src="/logo.png" alt="MeuMenu" className="h-10 w-10" />
+              <span className="ml-2 text-xl font-bold text-primary">MeuMenu</span>
+            </div>
             <nav className="hidden md:flex items-center gap-8">
-              <a href="#features" className="hover:text-whatsapp transition-colors">Recursos</a>
-              <a href="#benefits" className="hover:text-whatsapp transition-colors">Benefícios</a>
-              <a href="#pricing" className="hover:text-whatsapp transition-colors">Preços</a>
+              <a href="#features" className="hover:text-primary transition-colors">Recursos</a>
+              <a href="#benefits" className="hover:text-primary transition-colors">Benefícios</a>
+              <a href="#pricing" className="hover:text-primary transition-colors">Preços</a>
               <CTAButton text="Começar Agora" />
             </nav>
           </div>
@@ -36,7 +39,10 @@ const Index = () => {
         <div className="container mx-auto px-4 py-12">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-bold text-whatsapp mb-4">MeuMenu</h3>
+              <div className="flex items-center gap-2 mb-4">
+                <img src="/logo.png" alt="MeuMenu" className="h-8 w-8" />
+                <h3 className="text-xl font-bold text-primary">MeuMenu</h3>
+              </div>
               <p className="text-gray-600">
                 Automatização inteligente para seu delivery
               </p>
