@@ -81,6 +81,10 @@ const Pricing = () => {
                     <span>{feature}</span>
                   </li>
                 ))}
+                <li className="flex items-center gap-2 bg-whatsapp/10 p-2 rounded-lg">
+                  <Check className="w-5 h-5 text-whatsapp" />
+                  <span className="font-semibold text-whatsapp">SUPORTE 24 HORAS</span>
+                </li>
               </ul>
               <CTAButton
                 text="Começar Agora"
