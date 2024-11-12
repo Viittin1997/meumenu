@@ -18,7 +18,7 @@ const benefits = [
       "Robô para atendimento 24h",
       "Cupons de desconto",
       "Sistema de PDV completo",
-      "Sorteios automáticos"
+      "Realização de sorteio de pedidos"
     ]
   },
   {
