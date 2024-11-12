@@ -1,35 +1,60 @@
-import { MessageSquare, Clock, PieChart, Truck, Gift, Printer } from "lucide-react";
+import { MessageSquare, Clock, PieChart, Truck, Gift, Printer, FileText, Store, Percent, Trophy, Table } from "lucide-react";
 
 const features = [
   {
     icon: MessageSquare,
-    title: "Atendimento Automático",
+    title: "Atendimento via WhatsApp com Robô",
     description: "Robô inteligente que atende seus clientes 24/7 via WhatsApp"
   },
   {
-    icon: Clock,
-    title: "Pedidos Instantâneos",
-    description: "Processamento automático de pedidos com confirmação imediata"
+    icon: FileText,
+    title: "Cardápio Digital",
+    description: "Cardápio digital completo e personalizado para seu negócio"
   },
   {
-    icon: PieChart,
-    title: "Relatórios Detalhados",
-    description: "Acompanhe vendas, produtos mais pedidos e horários de pico"
-  },
-  {
-    icon: Truck,
-    title: "Taxa de Entrega",
-    description: "Cálculo automático baseado na localização do cliente"
-  },
-  {
-    icon: Gift,
-    title: "Programa Fidelidade",
-    description: "Sistema de pontos e cupons para fidelizar clientes"
+    icon: Store,
+    title: "Painel de Pedidos",
+    description: "Gerencie todos os pedidos em um único lugar"
   },
   {
     icon: Printer,
-    title: "Impressão Automática",
-    description: "Integração com impressoras para pedidos e comandas"
+    title: "Impressão de Pedidos",
+    description: "Impressão automática de pedidos e comandas"
+  },
+  {
+    icon: PieChart,
+    title: "Relatórios Financeiros",
+    description: "Acompanhe vendas, produtos mais pedidos e resultados"
+  },
+  {
+    icon: Clock,
+    title: "Abertura e Fechamento de Caixa",
+    description: "Controle completo do fluxo de caixa do seu negócio"
+  },
+  {
+    icon: Trophy,
+    title: "Programa Fidelidade",
+    description: "Sistema de pontos para fidelizar seus clientes"
+  },
+  {
+    icon: Percent,
+    title: "Cupons de Desconto",
+    description: "Crie e gerencie cupons de desconto personalizados"
+  },
+  {
+    icon: Gift,
+    title: "Sorteio de Pedidos",
+    description: "Realize sorteios automáticos entre seus clientes"
+  },
+  {
+    icon: Store,
+    title: "Sistema de PDV",
+    description: "PDV completo para gerenciar vendas presenciais"
+  },
+  {
+    icon: Table,
+    title: "Sistema de Mesas",
+    description: "Controle de mesas para restaurantes e bares"
   }
 ];
 
@@ -39,7 +64,7 @@ const Features = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold mb-4">
-            Tudo que você precisa para seu delivery
+            Todas as funcionalidades que você precisa para seu delivery
           </h2>
           <p className="text-xl text-gray-600">
             Ferramentas poderosas para automatizar e crescer seu negócio
