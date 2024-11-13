@@ -3,33 +3,30 @@ const benefits = [
     type: "Pizzarias",
     image: "https://images.unsplash.com/photo-1513104890138-7c749659a591",
     benefits: [
-      "Cardápio digital com sabores e bordas",
-      "Atendimento automático via WhatsApp",
-      "Sistema de mesas e delivery",
-      "Relatórios financeiros detalhados",
-      "Programa de fidelidade"
+      "Sistema completo de gestão de pedidos",
+      "Controle de estoque automático",
+      "Integração com delivery",
+      "Relatórios detalhados de vendas"
     ]
   },
   {
     type: "Hamburguerias",
     image: "https://images.unsplash.com/photo-1586816001966-79b736744398",
     benefits: [
-      "Cardápio com personalizações",
-      "Robô para atendimento 24h",
-      "Cupons de desconto",
-      "Sistema de PDV completo",
-      "Realização de sorteio de pedidos"
+      "Gestão de combos e promoções",
+      "Controle de insumos e custos",
+      "Dashboard de vendas em tempo real",
+      "Integração com ifood e apps"
     ]
   },
   {
     type: "Açaíterias",
     image: "https://images.unsplash.com/photo-1553530666-ba11a7da3888",
     benefits: [
-      "Montagem personalizada de pedidos",
-      "Atendimento via WhatsApp com Robô",
-      "Impressão automática de pedidos",
-      "Controle de caixa simplificado",
-      "Sistema de pontos para clientes"
+      "Controle de toppings e adicionais",
+      "Gestão de fornecedores",
+      "Relatórios de produtos mais vendidos",
+      "Sistema de fidelidade integrado"
     ]
   }
 ];
