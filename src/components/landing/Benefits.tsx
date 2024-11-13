@@ -3,30 +3,30 @@ const benefits = [
     type: "Pizzarias",
     image: "https://images.unsplash.com/photo-1513104890138-7c749659a591",
     benefits: [
-      "Atendimento automático via WhatsApp",
-      "Cardápio digital personalizado",
-      "Sistema de mesas e delivery",
-      "Relatórios de vendas em tempo real"
+      "Seus clientes fazem pedidos 24h por dia direto pelo WhatsApp, mesmo quando você está ocupado",
+      "Cardápio digital profissional que aumenta suas vendas com fotos e descrições atraentes",
+      "Controle total do seu salão e delivery em uma única tela",
+      "Acompanhe suas vendas em tempo real e tome decisões mais assertivas"
     ]
   },
   {
     type: "Hamburguerias",
     image: "https://images.unsplash.com/photo-1586816001966-79b736744398",
     benefits: [
-      "Robô para atendimento 24/7",
-      "Programa de fidelidade integrado",
-      "Cupons de desconto personalizados",
-      "Sistema de PDV completo"
+      "Nunca mais perca uma venda: robô atende seus clientes mesmo quando você está ocupado",
+      "Clientes satisfeitos voltam mais: programa de pontos que fideliza automaticamente",
+      "Aumente o ticket médio com cupons estratégicos para seus melhores clientes",
+      "Sistema completo de vendas que organiza seu caixa e delivery"
     ]
   },
   {
     type: "Açaíterias",
     image: "https://images.unsplash.com/photo-1553530666-ba11a7da3888",
     benefits: [
-      "Atendimento via WhatsApp com Robô",
-      "Impressão automática de pedidos",
-      "Sistema de pontos para clientes",
-      "Relatórios financeiros detalhados"
+      "Atendimento automático que anota todos os pedidos corretamente, sem erros",
+      "Pedidos impressos automaticamente na cozinha, agilizando o preparo",
+      "Sistema de pontos que faz seus clientes voltarem mais vezes",
+      "Relatórios detalhados que mostram exatamente quanto você está lucrando"
     ]
   }
 ];
