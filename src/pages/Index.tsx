@@ -61,42 +61,8 @@ const Index = () => {
       </main>
 
       <footer className="bg-gray-50 border-t">
-        <div className="container mx-auto px-4 py-12">
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div>
-              <h3 className="text-xl font-bold text-primary mb-4">MeuMenu</h3>
-              <p className="text-gray-600">
-                Automatização inteligente para seu delivery
-              </p>
-            </div>
-            <div>
-              <h4 className="font-semibold mb-4">Produto</h4>
-              <ul className="space-y-2 text-gray-600">
-                <li>Recursos</li>
-                <li>Preços</li>
-                <li>Cases</li>
-                <li>Blog</li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-semibold mb-4">Empresa</h4>
-              <ul className="space-y-2 text-gray-600">
-                <li>Sobre</li>
-                <li>Contato</li>
-                <li>Carreiras</li>
-                <li>Imprensa</li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-semibold mb-4">Legal</h4>
-              <ul className="space-y-2 text-gray-600">
-                <li>Privacidade</li>
-                <li>Termos</li>
-                <li>Cookies</li>
-              </ul>
-            </div>
-          </div>
-          <div className="mt-12 pt-8 border-t text-center text-gray-600">
+        <div className="container mx-auto px-4 py-8">
+          <div className="text-center text-gray-600">
             © 2024 MeuMenu. Todos os direitos reservados.
           </div>
         </div>
