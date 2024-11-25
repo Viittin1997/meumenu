@@ -1,4 +1,5 @@
 import { MessageSquare } from "lucide-react";
+import { useFacebookPixel } from "@/hooks/useFacebookPixel";
 
 interface CTAButtonProps {
   text: string;
@@ -6,7 +7,14 @@ interface CTAButtonProps {
 }
 
 const CTAButton = ({ text, className = "" }: CTAButtonProps) => {
+  const { trackEvent } = useFacebookPixel();
+
   const handleClick = () => {
+    trackEvent('InitiateCheckout', {
+      content_category: 'WhatsApp Contact',
+      content_name: 'Start Conversation'
+    });
+    
     window.open("https://api.whatsapp.com/send?phone=5531993611361&text=Oi,%20tenho%20interesse%20em%20iniciar%20ou%20saber%20mais%20sobre%20o%20sistema!", "_blank");
   };
 
