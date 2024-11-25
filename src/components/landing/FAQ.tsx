@@ -12,19 +12,19 @@ const faqs = [
   },
   {
     question: "Preciso ter WhatsApp Business?",
-    answer: "Sim, é necessário ter uma conta WhatsApp Business para integrar com nossa plataforma. Ajudamos você em todo o processo de configuração."
+    answer: "Não, você pode usar qualquer número de WhatsApp para integrar com nossa plataforma. Ajudamos você em todo o processo de configuração."
   },
   {
     question: "Como é feita a integração com impressoras?",
     answer: "Fornecemos um aplicativo que pode ser instalado em qualquer computador conectado à sua impressora térmica. Os pedidos são impressos automaticamente assim que confirmados."
   },
   {
-    question: "Posso personalizar as mensagens do robô?",
-    answer: "Sim! Você pode personalizar todas as mensagens, incluindo saudações, confirmações e respostas automáticas para adequar à identidade do seu negócio."
+    question: "As mensagens do robô podem ser personalizadas?",
+    answer: "Para garantir a melhor experiência para seus clientes, o robô utiliza mensagens padronizadas que foram cuidadosamente desenvolvidas para otimizar o processo de atendimento."
   },
   {
     question: "Quanto tempo leva para começar a usar?",
-    answer: "A configuração é rápida e pode ser feita no mesmo dia. Nossa equipe oferece suporte completo para garantir que você comece a usar o sistema rapidamente."
+    answer: "O processo de configuração e criação do cardápio digital leva de 1 a 4 dias úteis. Nossa equipe trabalha para garantir que seu cardápio fique perfeito e profissional."
   }
 ];
 
