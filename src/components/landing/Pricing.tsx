@@ -18,10 +18,10 @@ const features = [
 const plans = [
   {
     name: "Semestral",
-    price: "R$ 637,95",
+    price: "R$ 599,95",
     period: "/6 meses",
-    description: "Economia de 15%",
-    discount: "15% OFF"
+    description: "Economia de 20%",
+    discount: "20% OFF"
   },
   {
     name: "Mensal",
@@ -32,10 +32,10 @@ const plans = [
   },
   {
     name: "Anual",
-    price: "R$ 1.124,95",
+    price: "R$ 974,95",
     period: "/ano",
     description: "Maior economia",
-    discount: "25% OFF"
+    discount: "35% OFF"
   }
 ];
 
