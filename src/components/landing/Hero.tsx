@@ -11,11 +11,11 @@ const Hero = () => {
       <div className="container mx-auto px-4 py-20 lg:py-32">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
-            <h1 className="text-3xl lg:text-6xl font-bold leading-tight md:leading-tight">
+            <h1 className="text-2xl sm:text-3xl lg:text-6xl font-bold leading-tight md:leading-tight">
               Automatize seu delivery com um
               <span className="text-primary"> Robô no WhatsApp</span>
             </h1>
-            <p className="text-lg md:text-xl text-gray-600">
+            <p className="text-base sm:text-lg md:text-xl text-gray-600">
               Aumente suas vendas e simplifique o atendimento com um assistente virtual 24/7 que processa pedidos, calcula taxas e fideliza clientes.
             </p>
             <p className="text-sm md:text-base text-gray-500 font-medium">

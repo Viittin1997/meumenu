@@ -19,25 +19,25 @@ const Index = () => {
       <header className="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-md z-50 border-b">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-16">
-            <div className="flex-1 md:flex-none">
-              <span className="text-xl font-bold text-primary text-center block md:text-left">MeuMenu</span>
+            <div className="flex-1 flex justify-center md:justify-start">
+              <span className="text-xl font-bold text-primary">MeuMenu</span>
             </div>
             <nav className="hidden md:flex items-center gap-8">
               <button 
                 onClick={() => scrollToSection('features')} 
-                className="hover:text-primary transition-colors text-sm lg:text-base"
+                className="text-sm lg:text-base hover:text-primary transition-colors"
               >
                 Recursos
               </button>
               <button 
                 onClick={() => scrollToSection('benefits')} 
-                className="hover:text-primary transition-colors text-sm lg:text-base"
+                className="text-sm lg:text-base hover:text-primary transition-colors"
               >
                 Benefícios
               </button>
               <button 
                 onClick={() => scrollToSection('pricing')} 
-                className="hover:text-primary transition-colors text-sm lg:text-base"
+                className="text-sm lg:text-base hover:text-primary transition-colors"
               >
                 Preços
               </button>
